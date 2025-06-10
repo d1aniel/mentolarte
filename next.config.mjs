@@ -1,11 +1,5 @@
 /** @type {import('next').NextConfig} */
-
-const repoName = 'mentolarte'; // nombre exacto de tu repo en GitHub
-
 const nextConfig = {
-  output: 'export',
-  basePath: `/${repoName}`,
-  assetPrefix: `/${repoName}/`,
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -15,6 +9,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-};
+}
 
-export default nextConfig;
+export default nextConfig
