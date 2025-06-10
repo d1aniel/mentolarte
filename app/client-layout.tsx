@@ -9,6 +9,7 @@ import { Toaster } from "@/components/ui/toaster"
 import { ConditionalLayout } from "@/components/conditional-layout"
 import { initializeDatabase } from "@/lib/init-db"
 
+
 export default function ClientLayout({
   children,
 }: {
